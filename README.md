@@ -1,0 +1,1 @@
+Simple exemple of Jest Test using ES6 import
