@@ -7,4 +7,8 @@ export default class Task {
   markAsDone() {
     this.done = true;
   }
+
+  rename(name) {
+    this.label = name;
+  }
 }
