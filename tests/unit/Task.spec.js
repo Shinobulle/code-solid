@@ -12,7 +12,9 @@ test('can create a Task', () => {
   taskList.addTask(task);
   expect(taskList.list).toContain(task);
   taskList.addTask(task2);
-  taskList.reOrder();
-  expect(taskList.list).toEqual([task2,task])
+  taskList.reorderTask();
+  expect(taskList.list).toEqual([task2,task]);
+  taskList.removeTask(task);
+  expect(taskList.list).toEqual([task2]);
 });
 
