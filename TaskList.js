@@ -1,6 +1,6 @@
 export default class TaskList {
     constructor() {
-        this.list = new Array;
+        this.list = new Array();
     }
 
     addTask(task) {
